@@ -61,7 +61,7 @@ elif(app_mode=="Disease Recognation"):
     st.header("Disease Recognition")
     test_image = st.file_uploader("Choose an Image:")
     if(st.button("Show Image")):
-        st.image(test_image,width=4,width=400)
+        st.image(test_image,width=400)
     #Predict button
     if(st.button("Predict")):
         with st.spinner('please wait'):
